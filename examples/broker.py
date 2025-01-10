@@ -22,13 +22,16 @@ def command_listener(broker):
                 logger.info("Stopping broker via command...")
                 broker.stop()
                 break
+
             elif command == 'help':
                 logger.info("Available commands:")
                 logger.info("  stop  - Stop the broker and exit")
                 logger.info("  help  - Show this help message")
+
             elif command:
                 logger.warning(f"Unknown command: {command}")
                 logger.info("Type 'help' for available commands")
+                
         except (EOFError, KeyboardInterrupt):
             logger.info("Received interrupt signal in command listener")
             broker.stop()
