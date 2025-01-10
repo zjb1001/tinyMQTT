@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # tinymqtt
 =======
+=======
+>>>>>>> master
 # TinyMQTT Implementation
 
 A lightweight MQTT protocol implementation with layered architecture.
