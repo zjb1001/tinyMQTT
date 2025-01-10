@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # tinymqtt
 =======
 # TinyMQTT Implementation
@@ -165,4 +164,3 @@ python publisher.py --host localhost --port 1883 --topic "test/topic" --message 
 ```bash
 python subscriber.py --host localhost --port 1883 --topic "test/topic"
 ```
->>>>>>> 7c48d8d (first release)
